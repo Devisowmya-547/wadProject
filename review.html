@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url(https://foodreview.com/wp-content/uploads/2021/03/food-review-slider-1024x576.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+        }
+        header {
+            padding: 10px 0px;
+            color: white;
+            justify-content: center;
+            background-color: #333;
+            width: 790px;
+        }
+        h1 {
+            margin-left: 480px;
+            font-size: 2em;
+        }
+        .review {   
+            position: relative;
+            margin: 20px;
+            padding: 15px;
+            font-size: 1.5em;
+            width: 730px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .positive {
+            color: green;
+        }
+        .negative {
+            color: red;
+        }
+        .upnav{
+            bottom: 0px;
+            position: sticky;
+            margin-left: 1050px;
+            color: orange;
+        }
+        span{
+            margin-left: -550px;
+            display: inline;
+        }
+        .backnav{
+            position: fixed;
+            left: 25px;
+            top: 25px;
+            font-size: 3em;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <a href="menu.html"><ion-icon name="arrow-back-circle" class="backnav"></ion-icon></a>
+        <h1>Restaurant Reviews</h1>
+    </header>
+    <div class="review">
+        <pre>Anni joe                                                 4.5/5</pre><hr>
+        <p class="positive">Absolutely loved the food! The flavors were fantastic, and the service was impeccable.</p>
+    </div>
+    <div class="review">        
+        <pre>John smith                                                4.2/5</pre><hr>
+        <p class="positive">Great ambiance and friendly staff. The desserts are to die for!</p>
+    </div>
+    <div class="review">        
+        <pre>William smith                                             4/5</pre><hr>
+        <p class="positive">The restaurant has a wonderful wine selection. A perfect place for a romantic dinner.</p>
+    </div>
+    <div class="review"> 
+        <pre>Cristopher                                               4.8/5</pre><hr>
+        <p class="positive">The chef's special dish is a must-try. I can't wait to go back for more!</p>
+    </div>
+    <div class="review">
+        <pre>Gong william                                             4.3/5</pre><hr>
+        <p class="positive">A delightful dining experience. The staff was attentive, and the food was exquisite.</p>
+    </div>
+    <div class="review">
+        <pre>Steve robert                                              5/5</pre><hr>
+        <p class="positive">Highly recommended. The seafood dishes are fresh and flavorful.</p>
+    </div>
+    <div class="review">        
+        <pre>Ivanka gong                                              4.2/5</pre><hr>
+        <p class="positive">Excellent wine and dine. We celebrated our anniversary here, and it was perfect.</p>
+    </div>
+    <div class="review">
+        <pre>Priyanka narwal                                          3.9/5</pre><hr>
+        <p class="positive">Delicious cuisine and a great variety of options on the menu. Will visit again!</p>
+    </div>
+    <div class="review">
+        <pre>Bruce william                                           4.6/5</pre><hr>
+        <p class="positive">Service with a smile. The waitstaff made our evening special, and the food was excellent.</p>
+    </div>
+    <div class="review">
+        <pre>William smith                                           4/5</pre><hr>
+        <p class="positive">A hidden gem. We stumbled upon this restaurant and were pleasantly surprised by the food quality.</p>
+    </div>
+    <div class="review">
+        <pre>Rinku singh                                             3.8/5</pre><hr>
+        <p class="negative">Disappointing experience. The food took too long, and it was cold when it arrived.</p>
+    </div>
+    <div class="review">
+        <pre>Robert browney                                          3.5/5</pre><hr>
+        <p class="negative">Not satisfied with the portion size. The prices are quite high for what you get.</p>
+    </div>
+    <div class="review">
+        <pre>Bengumen                                                 3.5/5</pre><hr>
+        <p class="negative">Terrible service! Waited for over an hour just to place an order.</p>
+    </div>
+    <div class="review">
+        <pre>Abhraham jr                                              3.5/5</pre><hr>
+        <p class="negative">Overrated. The food didn't live up to the hype, and the prices are too high.</p>
+    </div>
+    <div class="review">
+        <pre>Nikolas jr                                                3.5/5</pre><hr>
+        <p class="negative">Unpleasant experience. The restaurant was noisy, and the food quality was poor.</p>
+    </div>
+    <a href="#top"><ion-icon name="arrow-up-circle" class="upnav">back to top</ion-icon></a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
